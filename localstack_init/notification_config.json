@@ -1,0 +1,11 @@
+{
+	"LambdaFunctionConfigurations": [
+		{
+			"Id":"5ea48bb3-78eb-41f1-b4a0-9ed5973ba1dc",
+			"LambdaFunctionArn": "arn:aws:lambda:us-east-1:000000000000:function:transferOrdsPoster",
+			"Events": [
+				"s3:ObjectCreated:*"
+			]
+		}
+	]
+}
